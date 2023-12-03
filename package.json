@@ -1,6 +1,6 @@
 {
-  "name": "react-native-expo-use-notifications",
-  "version": "0.1.0",
+  "name": "@netscale/react-native-expo-use-notifications",
+  "version": "0.1.1",
   "description": "With this package you can easily get devices expoPushToken for your push notifications",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -39,7 +39,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/netscale-agency/react-native-expo-use-notifications.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netscale-agency/react-native-expo-use-notifications.git"
+  },
   "author": "Netscale <Ivica.Zlatar@netscale.agency> (https://github.com/netscale-agency/react-native-expo-use-notifications.git)",
   "license": "MIT",
   "bugs": {
@@ -156,5 +159,14 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "expo": "^49.0.21",
+    "expo-device": "^5.6.0",
+    "expo-notifications": "^0.23.0",
+    "expo-secure-store": "^12.5.0"
+  },
+  "directories": {
+    "example": "example"
   }
 }
